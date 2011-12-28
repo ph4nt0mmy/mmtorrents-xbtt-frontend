@@ -1,0 +1,6 @@
+- js fájlok átnevezése
+- névkonvenció bevezetése: http://framework.zend.com/manual/en/coding-standard.naming-conventions.html
+- befejezni a letöltés oldalt, kereső elkészítése... pager() funkció a torrents.js -ből lehetne általános és felhasználható pl. a kérésekhez
+- befejezni a regisztrációs modult (megerősítő email, regisztráció legyen zárható, stb)
+- véglegesíteni a feltöltési oldalt (html, js, php kódok áttekintése)
+- profil szerkesztésénél legyen nagyobb a bemutatkozás rész (szélesebb); ezt is befejezni (passkey csere hiányzik); profil mentése után az oldal újratöltése, ha a nyelv és/vagy stílus beállítás változik

@@ -1,0 +1,30 @@
+mmtorrents-xbtt-frontend
+-------------------------
+
+This is a frontend written in PHP/MySQL/JS/HTML from scratch (except for the 3rdparty tools and some existing public libraries), which I started to develop to be used as a frontend for XBT Tracker. Sadly I didn't have the time to complete the frontend, so it's not ready yet. Now I'm sharing it with you under GPLv3 license. The GPLv3 license only applies to my code, where I used other public codes, there the license remains the original, no matter what it is.
+
+Features:
+- multilang support (currently it has English and Hungarian support)
+- uses btemplate HTML template class so you can easily create you're own themes
+- uses lightbenc to generate .torrent files which makes the process faster than other methods
+- a lots of AJAX features
+- TinyMCE editor for nicely formatted torrent descriptions/posts/etc
+
+What is ready:
+- uploading torrents
+- downloading torrents
+- user registration
+
+What is not:
+- everything else :(
+- the main missing component: there's no administration capability yet
+
+How to install:
+- install a webserver with PHP (GD library is needed!) and MySQL support and create a vhost for the frontend or just put it in the server's root directory
+- create a MySQL DB and import sql/mm6.sql file
+- edit inc/config.inc.php
+- point your browser to your webserver
+
+
+
+Try out and if you like it consider to participate in development of the code. Thanks

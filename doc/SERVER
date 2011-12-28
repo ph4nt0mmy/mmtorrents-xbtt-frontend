@@ -1,0 +1,1 @@
+* in php.ini (/etc/php5/cgi/php.ini) this should be set: default_charset = "utf-8"
