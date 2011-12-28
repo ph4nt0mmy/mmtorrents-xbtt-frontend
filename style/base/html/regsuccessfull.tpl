@@ -1,0 +1,1 @@
+<p><tag:reg_successfull /></p>

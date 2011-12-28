@@ -1,0 +1,10 @@
+#!/bin/sh
+#Recursively rename some to other
+for FILE in `find . -type f -name \*-utf8`
+do
+#NEW=`echo $FILE | sed -e 's/-utf8$/'`
+#NEW=`echo $FILE | sed -e 's/\-utf8$//'
+NEW=`echo $FILE | cut -d'-' -f1`
+mv -f "$FILE" "$NEW"
+#echo $NEW
+done
