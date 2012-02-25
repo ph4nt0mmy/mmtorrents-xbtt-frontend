@@ -21,6 +21,7 @@ What is not:
 
 How to install:
 - install a webserver with PHP (GD library is needed!) and MySQL support and create a vhost for the frontend or just put it in the server's root directory
+- open your php.ini an set short_open_tag = On
 - create a MySQL DB and import sql/mm6.sql file
 - edit inc/config.inc.php
 - point your browser to your webserver
