@@ -161,7 +161,7 @@ define('TORRENT_MULTIPLIER', 'Multiplicador');
 define('TORRENT_STAFF', 'Staff');
 define('TORRENT_SIZE', 'Tamanho');
 define('TORRENT_SL', 'S/L');
-define('TORRENT_COMMENTS', 'Coment.');
+define('TORRENT_COMMENTS', 'Com.');
 define('TORRENT_SEEDERS', 'S');
 define('TORRENT_LEECHERS', 'L');
 define('TORRENT_COMPLETED', 'C');

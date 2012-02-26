@@ -1,4 +1,4 @@
-var JS_BASETEXT = 'Digite seu nome e senha, e &Aacute; clique em entrar.';
+var JS_BASETEXT = 'Digite seu nome e senha, e clique em entrar.';
 var JS_PROCESSING = 'Processando';
 var JS_LANG = 'pt_br';
 
