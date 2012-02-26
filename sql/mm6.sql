@@ -603,7 +603,7 @@ CREATE TABLE IF NOT EXISTS `xbt_snatched` (
   `seeding` enum('yes','no') NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
-CREATE TABLE  `countries` (
+CREATE TABLE IF NOT EXISTS `countries` (
 `id` INT( 10 ) NOT NULL AUTO_INCREMENT ,
 `country` VARCHAR( 40 ) NOT NULL ,
 `isocode` VARCHAR( 40 ) NOT NULL ,
