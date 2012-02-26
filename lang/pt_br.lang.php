@@ -1,6 +1,6 @@
 <?php
 
-define('USER_WELCOME', 'OL&aacute;');
+define('USER_WELCOME', 'Ol&aacute;');
 define('USER_UPLOADED', 'Uploaded');
 define('USER_DOWNLOADED', 'Downloaded');
 define('USER_RATIO', 'Ratio');
