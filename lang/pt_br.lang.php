@@ -60,7 +60,7 @@ define('REG_SEX_FEMALE', 'Feminino');
 define('REG_SEX_MALE', 'Masculino');
 define('REG_CLOSED', 'O n&uacute;mero m&aacute;ximo de usu&aacute;rios foi alcan&ccedil;ado, tente novamente mais tarde.');
 define('REG_MAIL1', 'Querido');
-define('REG_MAIL2', 'Gostaríamos de inform&aacute;-lo que o processo de registro para '.$config['sitename'].' est&aacute; quase completo. Agora h&aacute; apenas mais um passo a seguir: n&oacute;s precisamos confirmar seu endereço de e-mail. Para isso, por favor click nesse link:');
+define('REG_MAIL2', 'Gostaríamos de inform&aacute;-lo que o processo de registro para $config[sitename] est&aacute; quase completo. Agora h&aacute; apenas mais um passo a seguir: n&oacute;s precisamos confirmar seu endereço de e-mail. Para isso, por favor click nesse link:');
 define('REG_MAIL3', 'Se houver qualquer problema com esse link (ou voc&ecirc; n&atilde;o puder clicar nele) copie e cole na barra de endere&ccedil;o do seu navegador.');
 define('REG_MAIL4', 'Aten&ccedil;&atilde;o! Voc&ecirc; tem apenas 7 dias para confirmar seu e-mail. Caso n&atilde;o confirme, ap&oacute;s 7 dias sua conta ser&aacute; deletada. Caso voc&ecirc; n&atilde;o tenha solicitado esse registro favor desconsiderar essa mensagem,');
 define('REG_CONFIRM_SUBJECT', 'confirmar conta');
