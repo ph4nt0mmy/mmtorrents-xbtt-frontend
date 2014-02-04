@@ -43,31 +43,31 @@ CREATE TABLE IF NOT EXISTS `categories` (
 
 INSERT INTO `categories` (`id`, `name`, `sub`, `sort_index`, `image`, `credit`) VALUES
 (1, 'MP3 (Hun)', 0, 1, 'mp3_hun.gif', 0),
-(10, 'MP3 (K¸lf.)', 0, 1, 'mp3.gif', 0),
+(10, 'MP3 (K√ºlf.)', 0, 1, 'mp3.gif', 0),
 (20, 'Lossless Audio', 0, 1, 'lossless2.gif', 0),
 (30, 'Film/XVID (Hun)', 0, 1, 'xvid_hun.gif', 0),
-(40, 'Film/XVID (K¸lf.)', 0, 1, 'xvid.gif', 0),
+(40, 'Film/XVID (K√ºlf.)', 0, 1, 'xvid.gif', 0),
 (50, 'Film/DVD (Hun)', 0, 1, 'dvd_hun.gif', 0),
-(60, 'Film/DVD (K¸lf.)', 0, 1, 'dvd.gif', 0),
+(60, 'Film/DVD (K√ºlf.)', 0, 1, 'dvd.gif', 0),
 (70, 'Sorozat (Hun)', 0, 1, 'series_hun.gif', 0),
 (90, 'Programok', 0, 1, 'progv2.gif', 0),
-(95, 'J·tÈkok', 0, 1, 'game_fil.gif', 0),
+(95, 'J√°t√©kok', 0, 1, 'game_fil.gif', 0),
 (100, 'Ebook', 0, 1, 'ebook.gif', 0),
 (116, 'XXX', 0, 1, 'xxx.gif', 0),
-(233, 'EgyÈb', 0, 1, 'other_fil.gif', 0),
-(231, 'VideÛklippek', 0, 1, 'klip.gif', 0),
+(233, 'Egy√©b', 0, 1, 'other_fil.gif', 0),
+(231, 'Vide√≥klippek', 0, 1, 'klip.gif', 0),
 (229, 'Mese', 0, 1, 'mese.gif', 0),
 (232, 'Fun', 0, 1, 'fun.gif', 0),
 (234, 'Anime', 0, 1, 'anime.gif', 0),
 (101, 'Ebook (Hun)', 0, 1, 'ebook_hun.gif', 0),
 (91, 'PDA', 0, 1, 'pda.gif', 0),
 (92, 'Mobil', 0, 1, 'mobil.gif', 0),
-(71, 'Sorozat (K¸lf.)', 0, 1, 'series.gif', 0),
+(71, 'Sorozat (K√ºlf.)', 0, 1, 'series.gif', 0),
 (235, 'Playstation 2', 0, 0, 'ps2.gif', 0),
 (236, 'Retro', 0, 0, 'retro.gif', 0),
-(237, 'XXX kÈpek', 0, 0, 'sexy_pictures.gif', 0),
+(237, 'XXX k√©pek', 0, 0, 'sexy_pictures.gif', 0),
 (238, 'Xbox 360', 0, 0, 'xbox360.gif', 0),
-(239, 'HD (K¸lf.)', 0, 0, 'hd.gif', 0),
+(239, 'HD (K√ºlf.)', 0, 0, 'hd.gif', 0),
 (240, 'HD (Hun)', 0, 0, 'hd_hun.gif', 0),
 (241, 'Wii', 0, 0, 'wii.gif', 0),
 (242, 'XXX dvd', 0, 0, 'xxxdvd.gif', 0),
@@ -93,12 +93,12 @@ CREATE TABLE IF NOT EXISTS `credits` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
 
 INSERT INTO `credits` (`id`, `name`, `points`, `sql`) VALUES
-(1, '1 GB feltˆltÈs', 5000, 'uploaded=uploaded+1073741824'),
-(2, '3 GB feltˆltÈs', 12000, 'uploaded=uploaded+3221225472'),
-(3, '5 GB feltˆltÈs', 20000, 'uploaded=uploaded+5368709120'),
-(4, '10 GB feltˆltÈs', 30000, 'uploaded=uploaded+10737418240'),
-(5, '1 db meghÌvÛ', 5000, 'invites=invites+1'),
-(6, '3 db meghÌvÛ', 12000, 'invites=invites+3');
+(1, '1 GB felt√∂lt√©s', 5000, 'uploaded=uploaded+1073741824'),
+(2, '3 GB felt√∂lt√©s', 12000, 'uploaded=uploaded+3221225472'),
+(3, '5 GB felt√∂lt√©s', 20000, 'uploaded=uploaded+5368709120'),
+(4, '10 GB felt√∂lt√©s', 30000, 'uploaded=uploaded+10737418240'),
+(5, '1 db megh√≠v√≥', 5000, 'invites=invites+1'),
+(6, '3 db megh√≠v√≥', 12000, 'invites=invites+3');
 
 CREATE TABLE IF NOT EXISTS `forums` (
   `sort` tinyint(3) unsigned NOT NULL default '0',
@@ -114,11 +114,11 @@ CREATE TABLE IF NOT EXISTS `forums` (
 
 
 INSERT INTO `forums` (`sort`, `id`, `name`, `description`, `cat`, `minclassread`, `minclasswrite`, `minclasscreate`) VALUES
-(0, 1, 'mmtorrents fÛrum', '¡ltal·nos fÛrum', 1, 1, 1, 1),
-(0, 2, 'SegÌtsÈgek', 'LetˆltÈshez, feltˆltÈshez, stb', 2, 0, 0, 0),
-(0, 3, 'KÈrdÈsek', 'Az oldalrÛl, torrentezÈsrˆl', 1, 0, 0, 0),
-(0, 4, 'Offtopic', 'Ami nem fÈr a tˆbbi kategÛri·ba', 1, 0, 0, 0),
-(0, 5, 'Bemutatkoz·s', 'Itt Ìrhatsz magadrÛl', 1, 1, 1, 1);
+(0, 1, 'mmtorrents f√≥rum', '√Åltal√°nos f√≥rum', 1, 1, 1, 1),
+(0, 2, 'Seg√≠ts√©gek', 'Let√∂lt√©shez, felt√∂lt√©shez, stb', 2, 0, 0, 0),
+(0, 3, 'K√©rd√©sek', 'Az oldalr√≥l, torrentez√©sr√∂l', 1, 0, 0, 0),
+(0, 4, 'Offtopic', 'Ami nem f√©r a t√∂bbi kateg√≥ri√°ba', 1, 0, 0, 0),
+(0, 5, 'Bemutatkoz√°s', 'Itt √≠rhatsz magadr√≥l', 1, 1, 1, 1);
 
 CREATE TABLE IF NOT EXISTS `friends` (
   `id` int(10) unsigned NOT NULL auto_increment,
@@ -396,6 +396,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   `name` varchar(8) NOT NULL,
   `username` varchar(40) default NULL,
   `password` varchar(40) NOT NULL,
+  `style` VARCHAR( 40 ) DEFAULT  'base';
   `id_level` int(10) NOT NULL default '1',
   `random` int(10) default '0',
   `email` varchar(30) NOT NULL,
@@ -466,14 +467,14 @@ CREATE TABLE IF NOT EXISTS `users_level` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=10 ;
 
 INSERT INTO `users_level` (`id`, `id_level`, `level`, `view_torrents`, `edit_torrents`, `delete_torrents`, `view_users`, `edit_users`, `delete_users`, `view_news`, `edit_news`, `delete_news`, `can_upload`, `can_download`, `view_forum`, `edit_forum`, `delete_forum`, `predef_level`, `can_be_deleted`, `admin_access`, `prefixcolor`, `suffixcolor`, `WT`, `szalak`) VALUES
-(1, 1, 'Felhaszn·lÛ', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'member', 'no', 'no', '', '', 0, NULL),
-(2, 2, 'Segitˆ', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'member', 'no', 'no', '<span style=\\''color:blue\\''>', '</span>', 0, NULL),
-(3, 3, 'Feltˆltˆ', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'member', 'no', 'no', '<span style=\\''color:navy\\''>', '</span>', 0, 4),
-(4, 4, 'Moder·tor', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'member', 'no', 'no', '<span style=\\''color:red\\''>', '</span>', 0, 1),
+(1, 1, 'Felhaszn√°l√≥', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'member', 'no', 'no', '', '', 0, NULL),
+(2, 2, 'Segit√∂', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'member', 'no', 'no', '<span style=\\''color:blue\\''>', '</span>', 0, NULL),
+(3, 3, 'Felt√∂lt√∂', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'member', 'no', 'no', '<span style=\\''color:navy\\''>', '</span>', 0, 4),
+(4, 4, 'Moder√°tor', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'member', 'no', 'no', '<span style=\\''color:red\\''>', '</span>', 0, 1),
 (5, 5, 'Sysop', 'yes', 'no', 'no', 'yes', 'no', 'no', 'yes', 'no', 'no', 'no', 'yes', 'yes', 'yes', 'no', 'member', 'yes', 'no', '<span style=\\''color:red\\''>', '</span>', 0, NULL),
 (6, 6, 'Tulajdonos', 'yes', 'no', 'no', 'yes', 'no', 'no', 'yes', 'no', 'no', 'no', 'yes', 'yes', 'yes', 'no', 'guest', 'yes', 'no', '<span style=\\''color:red\\''>', '</span>', 0, NULL),
 (7, 7, 'Rendszer', 'yes', 'no', 'no', 'yes', 'no', 'no', 'yes', 'no', 'no', 'no', 'yes', 'yes', 'yes', 'no', 'admin', 'yes', 'no', '<span style=\\''color:red\\''>', '</span>', 0, NULL),
-(8, 8, 'Szuper feltˆltˆ', 'yes', 'no', 'no', 'yes', 'no', 'no', 'yes', 'no', 'no', 'no', 'yes', 'yes', 'yes', 'no', 'uploader', 'yes', 'no', '<span style=\\''color:navy\\''>', '</span>', 0, NULL),
+(8, 8, 'Szuper felt√∂lt√∂', 'yes', 'no', 'no', 'yes', 'no', 'no', 'yes', 'no', 'no', 'no', 'yes', 'yes', 'yes', 'no', 'uploader', 'yes', 'no', '<span style=\\''color:navy\\''>', '</span>', 0, NULL),
 (9, 9, 'VIP', 'yes', 'no', 'no', 'yes', 'no', 'no', 'yes', 'no', 'no', 'no', 'yes', 'yes', 'yes', 'no', 'vip', 'yes', 'no', '<span style=\\''color:orange\\''>', '</span>', 0, NULL);
 
 CREATE TABLE IF NOT EXISTS `warnings` (
@@ -601,3 +602,10 @@ CREATE TABLE IF NOT EXISTS `xbt_snatched` (
   `connectable` tinyint(4) NOT NULL,
   `seeding` enum('yes','no') NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `countries` (
+`id` INT( 10 ) NOT NULL AUTO_INCREMENT ,
+`country` VARCHAR( 40 ) NOT NULL ,
+`isocode` VARCHAR( 40 ) NOT NULL ,
+PRIMARY KEY (  `id` )
+);

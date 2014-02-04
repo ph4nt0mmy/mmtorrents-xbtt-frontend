@@ -34,8 +34,8 @@ $config['maxnfosize'] 			= 65*1024; //65 Kbyte
 $config['cover_x'] 				= 150; //width in px
 
 $mpageArray = array("userdetails", "torrents", "upload", "requests", "users", "staff", "rules", "faq", "forum", "chat", "stat", "donate", "usercp");
-$langArray = array("hu", "en");
-$langNameArray = array("Magyar", "English");
+$langArray = array("hu", "en", "pt_br");
+$langNameArray = array("Magyar", "English", "Portugues BR");
 $styleArray = array("style/base/", "style/metal/");
 $styleNameArray = array("Classic", "Metal");
 $nfoFileTypes = array ( ".nfo", ".txt");
